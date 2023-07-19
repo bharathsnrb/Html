@@ -7,28 +7,45 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>1.Applicaion Form</h2>
-    <form action="">
-        <label for="">Name:</label>
-        <input type="text",,placeholder="Enter Your Name"><br><br>
-        <label for="">Email:</label>
-        <input type="email",,placeholder="Enter Your Email"><br><br>
-        <label for="">Gender:</label>
-        <label for="">Male</label>
-        <input type="radio">
-        <label for="">Female</label>
-        <input type="radio"><br><br>
-        <label for="">CHOOSE FIELD</label><br>Html
-        <input type="checkbox"> Css <input type="checkbox"> Js <input type="checkbox"> BootStrap <input type="checkbox"> React <input type="checkbox"><br><br>
-        <label for="">JOB TYPE</label>
-        <select name="role">
-            <option value="">front end Devloper</option>
-            <option value="">front end Devloper</option><br><br>
-        </select><br><br>
-        <label for="">Choose Your Browser from the list:</label>
-        <input type="text"><br><br>
-        <textarea name="summary" id="" cols="20" rows="3">Give a brief summary about you</textarea><br><br>
-        <button type="submit">Submit</button>
+    <h2>01.Application Form</h2>
+    <form >
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+        <label for="gender">Gender :</label>
+        <input type= "radio" id="gender" name="gender" value="Male">
+        <label for="gender">Male</label>
+        <input type="radio" id="gender" name="gender" value="Female">
+        <label for="gender">Female</label><br><br>
+        <label for="skill">CHOOSE SKILLS</label><br><br>
+        <label for="skill">HTML</label>
+        <input type="checkbox" id="skill" name="skill" value="HTML">
+        <label for="skill">CSS</label>
+       <input type="checkbox" id="skill" name="skill" value="CSS">
+       <label for="skill">JS</label>
+       <input type="checkbox" id="skill" name="skill" value="JS">
+       <label for="skill">Bootstrap</label>
+       <input type="checkbox" id="skill" name="skill" value="Bootstrap">
+       <label for="skill">React</label>
+       <input type="checkbox" id="skill" name="skill" value="React"><br><br>
+       <label for="jobtype">JOB TYPE</label>
+       <select name="jobtype" id="jobtype">
+        <option value="Front End Developer">FRONT END DEVELOPER</option>
+        <option value="Back End Developer">BACK END DEVELOPER</option>
+        <option value="Full Stack Developer">FULL STACK DEVELOPER</option> 
+       </select><br><br>
+       <label for="browser">Choose your browser from the list</label>
+       <input list="browsers" name="browser" id="browser">
+       <datalist id="browsers">
+        <option value="Edge"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+       </datalist><br><br>
+       <textarea name="text"  cols="20" rows="3" placeholder="Give a brief summary about you"></textarea><br><br>
+       <button type="submit" value="Submit">Submit</button>
     </form>
     
 </body>
